@@ -48,6 +48,7 @@ Reprogram your FPGA using that bitstream through Vivado.
 
 ### Step 2: Build the NIC driver
 ```bash
+sudo apt-get install -y build-essential cmake
 bash build_driver.sh 
 ```
 
@@ -68,7 +69,7 @@ export RINGLEADER_DRIVER_DIR=<RINGLEADER_REPO_PATH>/driver
 **2. Build Demikernel with Ringleader**
 ```bash
 #Please ensure you already built the Ringleader C driver
-cd ./demikernel             # Switch to demikernel's working directory.
+cd ./demikernel/demikernel             # Switch to demikernel's working directory.
 make all                    # Build demikernel using ringleader driver.
 ```
 

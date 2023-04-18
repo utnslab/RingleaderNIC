@@ -1,0 +1,21 @@
+# Build Artifacts
+bin/
+debug/
+lib/
+target/
+*.a
+*.img
+*.o
+
+# Side Files
+Cargo.lock
+
+# Backup Files
+**/*.rs.bk
+
+# IDEs
+*.swp
+*.swo
+*.vscode/
+*.DS_Store
+.clangd/

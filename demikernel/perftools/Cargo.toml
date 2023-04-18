@@ -1,0 +1,29 @@
+[package]
+name = "perftools"
+version = "0.2.0"
+authors = ["Pedro Henrique Penna <ppenna@microsoft.com>"]
+edition = "2018"
+license = "2018"
+description = "Performance Tools for Rust"
+repository = "https://github.com/demikernel/perftools"
+keywords = ["performance", "tracing", "profiling", "analysis"]
+readme = "README.md"
+
+[dependencies]
+cfg-if = "0.1"
+log = "0.4"
+x86 = "0.43.0"
+
+[features]
+auto-calibrate = []
+
+[profile.release]
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+opt-level = 3
+debug = false
+debug-assertions = false
+overflow-checks = false
+incremental = false
+rpath = false

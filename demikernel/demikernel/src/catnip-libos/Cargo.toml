@@ -21,7 +21,7 @@ byteorder = "1.2.7"
 must-let = { git = "https://github.com/sujayakar/must-let" }
 log = "0.4.14"
 ntest = "0.7.3"
-perftools = { path = "/home/jxlin/perftools" }
+perftools = { path = "../../../perftools" }
 core_affinity = "0.5.10"
 
 [dependencies.rocksdb]
