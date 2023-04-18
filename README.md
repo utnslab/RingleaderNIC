@@ -92,7 +92,7 @@ echo 1234 1001 > /sys/bus/pci/drivers/vfio-pci/new_id
 # exit root
 ctr+D
 
-# run ringleader throughput test (receiver side), replace 0000:ca:00.0 with your FPGA's PCIe address
+# run ringleader throughput test (server), replace 0000:ca:00.0 with your FPGA's PCIe address
 sudo ./driver/ixy-throughput 0000:ca:00.0 
 ```
 
@@ -119,7 +119,7 @@ cd ../demikernel/demikernel
 vi ./default.yaml
 
 # replace membind and cpunodebind number with your nic local numa node
-# run Ringleader with demikernel (receiver side)
+# run Ringleader with demikernel (server)
 sudo numactl --strict --membind=1 --cpunodebind=1 env LD_LIBRARY_PATH=$RINGLEADER_DRIVER_DIR MSS=9000 MTU=1500 NUM_ITERS=1000 BUFFERSIZE=64 DEBUG=no  ECHO_SERVER=yes src/target/release/examples/ixy ./default.yaml
 
 ```
