@@ -1,0 +1,9 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT license.
+catnip:
+  my_ipv4_addr: 192.168.233.2
+  remote_ipv4_addr:  192.168.233.4
+  local_mac: 1c:34:da:41:ca:ac
+  remote_mac: 1c:34:da:41:ca:aa
+  pcie: 0000:ca:00.0
+

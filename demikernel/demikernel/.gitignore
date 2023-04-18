@@ -1,0 +1,24 @@
+# Build Artifacts
+*.a
+*.so
+
+# vim
+*.swo
+*.swp
+
+# vscode
+.vscode/*
+
+# gdb
+.gdb.*
+
+# ctags
+tags
+tags.*
+
+# rust
+Cargo.lock
+
+# Build Artifacts
+contrib/
+target/

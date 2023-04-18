@@ -1,0 +1,146 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Thu Nov  4 04:49:20 2021
+[*]
+[dumpfile] "/home/jxlin/ringleader/fpga/mqnic/ADM_PCIE_9V3/fpga_100g/tb/fpga_core/fpga_core.fst"
+[dumpfile_mtime] "Thu Nov  4 04:46:02 2021"
+[dumpfile_size] 2021195
+[savefile] "/home/jxlin/ringleader/fpga/mqnic/ADM_PCIE_9V3/fpga_100g/tb/fpga_core/wave.gtkw"
+[timestart] 39863000
+[size] 2048 1089
+[pos] -193 -1161
+*-19.995514 42214000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] fpga_core.
+[treeopen] fpga_core.core_inst.
+[treeopen] fpga_core.core_inst.core_pcie_inst.
+[treeopen] fpga_core.core_inst.core_pcie_inst.core_inst.
+[treeopen] fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].
+[treeopen] fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.
+[treeopen] fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].
+[treeopen] fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.
+[treeopen] fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_dispatch_inst.
+[treeopen] fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_dispatch_inst.outer[1].
+[treeopen] fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_dispatch_inst.outer[4].
+[treeopen] fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.
+[treeopen] fpga_core.core_inst.core_pcie_inst.dma_if_pcie_inst.
+[sst_width] 441
+[signals_width] 401
+[sst_expanded] 1
+[sst_vpaned_height] 324
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.m_axis_rx_req_len[15:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.m_axis_rx_req_queue[12:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.m_axis_rx_req_ram_addr[18:0]
+@28
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.m_axis_rx_req_ready
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.m_axis_rx_req_tag[6:0]
+@28
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.m_axis_rx_req_valid
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.user_queue_offset_reg[12:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.user_space_ip_reg[31:0]
+@28
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.ctrl_reg_rd_ack
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.ctrl_reg_rd_addr[17:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.ctrl_reg_rd_data[31:0]
+@28
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.ctrl_reg_rd_en
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.ctrl_reg_wr_ack
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.ctrl_reg_wr_addr[17:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.ctrl_reg_wr_data[31:0]
+@28
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.ctrl_reg_wr_en
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.header_parser.m_desc_flow_id[15:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.rss_mask_kernel_reg[12:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.rss_mask_user_reg[12:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.header_parser.user_space_ip[31:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.header_parser.ip_dest_next[31:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.m_axis_rx_csum[15:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.m_axis_rx_csum[15:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.m_axis_rx_hash[31:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.m_axis_rx_req_len[15:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.m_axis_rx_req_queue[12:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.m_axis_rx_req_ram_addr[18:0]
+@28
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.m_axis_rx_req_ready
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.m_axis_rx_req_tag[6:0]
+@28
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.m_axis_rx_req_valid
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.alloc_mem_size[15:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.m_axis_rx_desc_addr[18:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.m_axis_rx_desc_len[15:0]
+@28
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.m_axis_rx_desc_ready
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.m_axis_rx_desc_tag[4:0]
+@28
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.m_axis_rx_desc_valid
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.s_rx_axis_tdata[511:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.s_rx_axis_tkeep[63:0]
+@28
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.s_rx_axis_tlast
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.s_rx_axis_tready
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.s_rx_axis_tuser
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.s_rx_axis_tvalid
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.fifo_length_data[15:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.fifo_length_data[15:0]
+@28
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.fifo_length_ready
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.fifo_length_valid
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.m_axis_rx_req_len[15:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.m_axis_rx_req_queue[12:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.m_axis_rx_req_ram_addr[18:0]
+@28
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.m_axis_rx_req_ready
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.m_axis_rx_req_tag[6:0]
+@28
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.m_axis_rx_req_valid
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.rx_cpl_queue_manager_inst.m_axis_update_length[15:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.rx_cpl_queue_manager_inst.m_axis_update_queue[7:0]
+@28
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.rx_cpl_queue_manager_inst.m_axis_update_valid
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_dispatch_inst.s_axis_update_length[15:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_dispatch_inst.outer[1].inner[0].cmp_left[7:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_dispatch_inst.outer[1].inner[0].cmp_right[7:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_dispatch_inst.s_axis_update_length[15:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_dispatch_inst.s_axis_update_queue[12:0]
+@28
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_dispatch_inst.s_axis_update_valid
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_dispatch_inst.m_axis_rx_req_len[15:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_dispatch_inst.m_axis_rx_req_queue[12:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_dispatch_inst.m_axis_rx_req_ram_addr[18:0]
+@28
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_dispatch_inst.m_packet_desc_ready
+@29
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_dispatch_inst.s_packet_desc_ready
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_dispatch_inst.m_axis_rx_req_tag[6:0]
+@28
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_dispatch_inst.m_packet_desc_ready
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_dispatch_inst.m_packet_desc_valid
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_dispatch_inst.outer[4].inner[0].cmp_left[7:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_dispatch_inst.outer[4].inner[0].cmp_right[7:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_dispatch_inst.outer[4].inner[0].id_left[3:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_dispatch_inst.outer[4].inner[0].id_right[3:0]
+@28
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_dispatch_inst.dec_valid
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_dispatch_inst.inc_valid
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_dispatch_inst.min_queue_id[3:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_dispatch_inst.min_queue_length[7:0]
+[pattern_trace] 1
+[pattern_trace] 0

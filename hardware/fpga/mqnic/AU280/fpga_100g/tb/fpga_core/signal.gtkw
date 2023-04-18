@@ -1,0 +1,104 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Sat Oct 30 23:10:22 2021
+[*]
+[dumpfile] "/home/jxlin/ringleader/fpga/mqnic/AU280/fpga_100g/tb/fpga_core/fpga_core.fst"
+[dumpfile_mtime] "Sat Oct 30 22:58:08 2021"
+[dumpfile_size] 2376856
+[savefile] "/home/jxlin/ringleader/fpga/mqnic/AU280/fpga_100g/tb/fpga_core/signal.gtkw"
+[timestart] 36106600
+[size] 2048 1089
+[pos] -193 -1161
+*-15.000000 36137400 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] fpga_core.
+[treeopen] fpga_core.core_inst.
+[treeopen] fpga_core.core_inst.core_pcie_inst.
+[treeopen] fpga_core.core_inst.core_pcie_inst.core_inst.
+[treeopen] fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].
+[treeopen] fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.
+[treeopen] fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].
+[treeopen] fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].port_inst.
+[treeopen] fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.
+[treeopen] fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.
+[sst_width] 471
+[signals_width] 798
+[sst_expanded] 1
+[sst_vpaned_height] 448
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.rx_axis_tdata[511:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.rx_axis_tkeep[63:0]
+@28
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.rx_axis_tlast
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.rx_axis_tready
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.rx_axis_tuser
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.rx_axis_tvalid
+@200
+-rx req from mac
+-on-NIC ram rx data write
+@28
+fpga_core.clk_250mhz
+@c00200
+-fpga_core.iface[0].interface_inst.port[0].port_inst.dma_client_axis_sink_inst.ram_wr_cmd_addr
+@1401200
+-group_end
+@200
+-desc reuest to desc_fecth
+-desc data from desc_fetch
+-DMA write reuest for rx data
+-csum&hash
+-Generate cpl to cpl write module
+-request to desc fetch
+-ringleader
+-dec_gen
+-alloc mem
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.s_rx_axis_tdata[511:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.s_rx_axis_tkeep[63:0]
+@28
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.s_rx_axis_tlast
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.s_rx_axis_tready
+@29
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.s_rx_axis_tvalid
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.rx_csum[15:0]
+@28
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.rx_csum_valid
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.rx_fifo_csum_ready
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.rx_fifo_csum_valid
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.rx_hash[31:0]
+@28
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.rx_hash_valid
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.rx_fifo_hash_ready
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.rx_fifo_hash_valid
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.m_axis_rx_desc_addr[18:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.m_axis_rx_desc_len[15:0]
+@28
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.m_axis_rx_desc_ready
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.m_axis_rx_desc_tag[4:0]
+@28
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.m_axis_rx_desc_valid
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.m_packet_desc[127:0]
+@28
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.m_packet_desc_ready
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.m_packet_desc_valid
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.parser_state[1:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.rx_fifo_csum_valid
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.rx_fifo_hash_valid
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.fifo_rx_axis_tdata[511:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.fifo_rx_axis_tkeep[63:0]
+@28
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.fifo_rx_axis_tlast
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.fifo_rx_axis_tready
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.fifo_rx_axis_tuser
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.fifo_rx_axis_tvalid
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.hash_csum_data_fifo.full
+@22
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.hash_csum_data_fifo.rd_ptr_reg[5:0]
+fpga_core.core_inst.core_pcie_inst.core_inst.iface[0].interface_inst.port[0].ringleader_inst.desc_gen_inst.hash_csum_data_fifo.wr_ptr_reg[5:0]
+[pattern_trace] 1
+[pattern_trace] 0

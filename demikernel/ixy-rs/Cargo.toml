@@ -1,0 +1,20 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT license.
+
+[package]
+name = "ixy-rs"
+version = "0.2.0"
+edition = "2018"
+
+[dependencies]
+cfg-if = "0.1"
+
+[build-dependencies]
+bindgen = "0.58"
+cc = "1.0"
+gcc = "0.3"
+
+[features]
+default = ["mlx4"]
+mlx4 = []
+mlx5 = []
